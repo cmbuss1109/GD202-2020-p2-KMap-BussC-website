@@ -1,0 +1,97 @@
+body {
+    background: rgb(233, 237, 217);
+    font-family:"Trebuchet MS",Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+header {
+    background-image: url("images/broadsheetcrop2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    padding:5%;
+    text-align: center;
+}
+header a {
+    color: rgb(218,194,142);
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+a {
+    text-decoration: none;
+}
+section {
+    padding: 2%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    vertical-align: top;
+}
+
+section .subhead{
+    padding: 10px;
+    background: rgb(77, 85, 80);
+    border-radius: 5px;
+    margin: auto;
+    width: auto;
+}
+section.subject {
+    display: flex;
+    flex-direction: row;
+}
+section.column {
+    display: flex;
+    flex-direction: column;
+}
+div {
+    margin: 5%; 
+    text-align: center;
+}
+h1 {
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(77, 85, 80);
+    font-size: 32px;
+    text-align: center;
+}
+h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(77, 85, 80);
+    font-size: 24px;
+    text-align: center;
+}
+h3 {
+    font-family: Helvetica, sans-serif;
+    color: rgb(133, 171, 158);
+    font-size: 20px;
+    text-align: center;
+}
+h4 {
+    font-family: Helvetica, sans-serif;
+    color: rgb (133, 171, 158);
+    font-size: 14px;
+    text-align: center;
+}
+p {
+    color: rgb(133, 171, 158);
+}
+footer {
+    background: rgb(77, 85, 80); 
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    margin-top: 20%;
+}
+footer a {
+    color: rgb(218,194,142);
+}
